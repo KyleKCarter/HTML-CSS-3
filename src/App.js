@@ -46,6 +46,11 @@ class App extends React.Component {
             <li>CONTACT</li>
           </ul>
         </menu>
+        <div className='content'>
+          <h3 className='welcome'>Welcome To Our Studio!</h3>
+          <h1 className='meet'>IT'S NICE TO MEET YOU</h1>
+          <button className='tellMeMore'>TELL ME MORE</button>
+        </div>
       </body>
     );
   }
