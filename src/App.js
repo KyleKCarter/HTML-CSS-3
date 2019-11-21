@@ -37,7 +37,7 @@ class App extends React.Component {
             <li>CONTACT</li>
           </ul>
         </nav>
-        <menu id="menu" ref={this.state.menuRef}>
+        <menu id="menu" className='menu-close' ref={this.state.menuRef}>
           <ul className="dropDownMenu">
             <li>SERVICES</li>
             <li>PORTFOLIO</li>
